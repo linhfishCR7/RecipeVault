@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; media-src *; img-src 'self' data: content: https:;">
+    <title>Recipe Vault</title>
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+    <div class="app">
+        <header class="header">
+            <div class="header-content">
+                <div class="app-icon">👨‍🍳</div>
+                <div class="app-info">
+                    <h1 class="app-title">Recipe Vault</h1>
+                    <p class="app-subtitle">Recipe management and cooking assistant with meal planning and shopping lists</p>
+                </div>
+            </div>
+        </header>
+        
+        <main class="main-content">
+            <div class="welcome-section">
+                <div class="welcome-icon">👨‍🍳</div>
+                <h2>Welcome to Recipe Vault</h2>
+                <p class="welcome-description">Recipe management and cooking assistant with meal planning and shopping lists</p>
+                
+                <div class="features-list">
+                    <div class="feature-item">
+                            <span class="feature-icon">✨</span>
+                            <span class="feature-text">Recipe storage</span>
+                        </div><div class="feature-item">
+                            <span class="feature-icon">✨</span>
+                            <span class="feature-text">Cooking timers</span>
+                        </div><div class="feature-item">
+                            <span class="feature-icon">✨</span>
+                            <span class="feature-text">Shopping lists</span>
+                        </div><div class="feature-item">
+                            <span class="feature-icon">✨</span>
+                            <span class="feature-text">Meal planning</span>
+                        </div>
+                </div>
+                
+                <button class="get-started-btn" id="getStartedBtn">Get Started</button>
+            </div>
+            
+            <div class="app-content" id="appContent" style="display: none;">
+                <div class="content-section">
+                    <h3>Recipe Vault is Ready!</h3>
+                    <p>This is where your app's main functionality will be implemented.</p>
+                    
+                    <div class="action-buttons">
+                        <button class="btn btn-primary" id="primaryAction">Primary Action</button>
+                        <button class="btn btn-secondary" id="secondaryAction">Secondary Action</button>
+                    </div>
+                </div>
+            </div>
+        </main>
+        
+        <footer class="footer">
+            <p>&copy; 2024 Recipe Vault. Built with Apache Cordova.</p>
+        </footer>
+    </div>
+    
+    <script type="text/javascript" src="cordova.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+</body>
+</html>
